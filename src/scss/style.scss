@@ -1,0 +1,31 @@
+body {
+  #app {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .movie {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 200px;
+      height: 300px;
+      border: 1px solid black;
+
+      img{
+        width: 100px;
+      }
+      h2 {
+        font-size: 18px;
+      }
+      h3 {
+        font-size: 14px;
+      }
+    }
+    
+  }
+}
